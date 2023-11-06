@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,13pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -76,6 +76,7 @@
 \begin{center}
 	{\Huge \scshape {Goram Anil Nayak}}\\
     \vspace{2mm}
+    \color{blue}
     \faPhone \ (+91) 7989278697 $|$ \faEnvelope \ \href{mailto:goramanilnayak@gmail.com}{goramanilnayak@gmail.com} $|$ \faLinkedinSquare \ \href{https://www.linkedin.com/in/anil-nayak-28a721182/}{Anil Nayak} $|$ \href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ gmalnk}
 \vspace*{-10pt}
 \end{center}
@@ -87,7 +88,7 @@
   \educationSubHeadingListStart
     \educationSubheading
       {Indian Institute of Technology, Kharagpur}{Kharagpur, India}
-      {Dual Degree of B.Tech (Honors) and M.tech- Mechanical Engineering;  CGPA: 8.23}{July 2017 - June 2022}
+      {Dual Degree of B.Tech (Honors) and M.tech- Mechanical Engineering;  CGPA: 8.29}{July 2017 - June 2022}
      \educationSubheading
       {Narayana Junior College}{Hyderabad, India}
       {Telangana State Board of Intermediate Education; Percentage: 98.5}{July 2015 - June 2017}
@@ -130,10 +131,11 @@
    \resumeSubheading
       {\small Operations Research Analyst, Laminaar Aviation Infotech, Bangalore, India} {\small July 2022 - present}
         {\begin{itemize}
-            \small \item Integrated reserve assignment, long reserve assignment, and reserve priority in Crew Rostering Optimizer module.
-            \small \item  Handled horizontal rules of reserve and implemented the functionality of reserve distribution in CRO module.
-            \small  \item  Improved solution of CRO by applying a compact strategy and moving window heuristic to the solving methodology.
-            \small  \item  Worked on two phases of the solution engine for improved performance and better distribution of KPI parameters.
+            \small \item Achieved near-optimal result in CRO with \textbf{20\%} reduction in crew scheduling costs through compact and moving-window heuristics.
+            \small \item Integrated \textbf{reserve assignment}, long reserve assignment, and long reserve priority in CRO module as per Business Requirements.
+            \small \item  Handled distribution and horizontal rules of reserve in the CRO module, leading to a \textbf{30\%} increase in, efficient resource allocation.
+            \small \item Improved the overall system efficiency by \textbf{5 percent} and aligned key performance indicators through two solution engine phases.
+            \small \item Implemented \textbf{East-West Restriction} requirement and optimized Vertical constraints in CRO, resulting in a more compact model.
         \end{itemize}}
       \resumeSubHeadingListEnd
  %----------Projects----------------------
@@ -141,22 +143,22 @@
 \section{Projects}
     \resumeItemListStart
         \resumeSubheading
-        {Stock Market Algorithmic Trading Application}{(January, 2023)}
+        {Stock Market Algorithmic Trading Application}{January 2023 - present}
         {\begin{itemize}
-        \item \small Developed an algorithmic trading platform using PostgreSQL as the database to store data for 2000 stocks of NSE.
-         \small \item  Utilized FastAPI to build the Back-end, enabling efficient retrieval of stock data from the database for the frontend. Leveraged libraries like yfinance and SmartAPI to gather historical and real-time stock data.
-        \small \item  Implemented operations research techniques to generate trendlines (a core feature of this platform), for efficent trading. 
-        \small \item Integrated SmartAPI's WebSocket to fetch live ticks data, enabling accurate trade execution based on real-time data.
-        \item \small Created the Front-end using React.js, implementing various pages and features which are responsive and user friendly.
-        
-        \small \item Conducted thorough testing to validate the platform's functionality, performance, and reliability, Implemented error handling and data validation to enhance the user experience and ensure data integrity.
+        \item \small Architected an algorithmic trading platform, employing \textbf{PostgreSQL} as database and leveraging \textbf{FastAPI} as the back-end server.
+         \small \item  Integrated AngelOne SmartAPI's \textbf{WebSocket} to fetch real-time tick-by-tick data and used yfinance  library for historical  data.
+        \small \item  Implemented operations research techniques to generate \textbf{trendlines}, dynamically plotted on UI, enabling data-driven stock analysis
+        \small \item  Developed \textbf{real-time trade} execution functionality, incorporating user pre-defined conditional trades with precision and efficiency.
+        \item \small Designed and developed a responsive and user-friendly Front-end using \textbf{React.js}, Bootstrap, and TradingView light-weight charts.
         \end{itemize}}
         \resumeSubheading
-        {Developed And Deployed Two PERN Stack Applications}{(February 2023)}
+        {Developed And Deployed Two PERN Stack Applications}{Feb 2023 - April 2023}
          {\begin{itemize}
-        \item \small Yelp Clone: Developed a fully functional Yelp clone application from scratch using the PERN stack.
-         \small \item Todo List App: Created a feature-rich todo list application with CRUD functionality using the PERN stack.
-        \small \item  Deployed the applications on AWS EC2 instances using Nginx software, Links for  \href{http://13.51.45.119/}{Todo app}, \href{http://13.50.101.28/}{  Yelp Clone app}.
+        \item \small developed a fully functional Yelp clone application from scratch, utilizing the \textbf{PERN} (PostgreSQL, Express, React, Node.js) stack.
+         \small \item Created a feature-rich to-do list application with \textbf{CRUD} functionality using PERN stack. empowering users to boost productivity.
+        \small \item Effectively deployed applications on \textbf{AWS EC2} instances, leveraging \textbf{Nginx} Software for seamless performance and accessibility.
+        \small \item Experience the functionality of the applications by accessing them through the following links
+            \color{blue} \href{http://13.51.45.119/}{\underline{Todo app}}, \href{http://13.50.101.28/}{ \underline{ Yelp Clone app}}.
         \end{itemize}}
        \vspace{-1.7mm}
       \resumeSubHeadingListEnd
@@ -171,20 +173,35 @@
         \resumeItem{\small Web Technologies: }
           {\small  \ \ \ \ \ \ \ \ Node.js \textbar \  React.js \textbar \  Express.js \textbar \  FastAPI \textbar \ Django \textbar \ Restful APIs    \textbar \ BootStrap }
            \resumeItem{\small Database: }
-           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ PostgreSQL \textbar \  MongoDB}
+           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ PostgreSQL \textbar \ MySQL \textbar \  MongoDB}
            \resumeItem{\small Developer Tools: }
           {\small  \ \ \ \ \ \ \ \ \ \ \ Vs Code \textbar \ Git \textbar \  AWS EC2 \textbar \ Postman \textbar \  Nginx    \textbar \ Docker }
            \resumeItemListEnd
      }
      
 \setlength{\itemindent}{5mm}
-
 \section{Position Of Responsibilities}
+    \resumeItemListStart
+        \resumeSubheading
+        {Captain \textbar \ Hockey Team \textbar \  Vidyasagar Hall of Residence - \ IIT Kharagpur }{Jan 2020 - March 2022}
+        {\begin{itemize}
+         \small \item Led the Hockey team to secure a \textbf{bronze} medal in the highly competitive 65th Inter-Hall General Championship, IIT Kharagpur.
+        \item \small Effectively organized practice sessions by coordinating with a team of 16 players and diligently tracking their progress regularly.
+        \end{itemize}}
+        \resumeSubheading
+        {Secrectary \textbar \ Sports and Games \textbar \  Vidyasagar Hall of Residence - \ IIT Kharagpur }{June 2018 - March 2019}
+         {\begin{itemize}
+        \item \small Elected by an electorate of 332 boarders to lead Hall's effort to compete in the Sports and Games, General Championship.
+         \small \item  Managed an annual budget of INR 2,17,000/- allocated for sports activities aimed at the success of the General Championship.
+        \end{itemize}}
+       \vspace{-1.7mm}
+      \resumeSubHeadingListEnd
+\section{Extra Curricular Activities}
    \resumeItemListStart
     \begin{itemize}
-    \item 	Interhall Hockey Team Captain for Vidyasagar Hall of Residence, IIT Kharagpur, Jan 2020 - March 2022.
-    \item	Secretary for sports and games for Vidyasagar Hall of Residence, IIT Kharagpur, Jun 2018 - March 2019.
-    \item	 Was part of the National Sports Organisation - football at IIT Kharagpur, Jun 2017- April 2019.
+    \item Contributed to the development and promotion of the sport among students, as Part of the \textbf{NSO} - football at IIT Kharagpur.
+    \item Coordinated in organizing COVID-19 vaccination drive for 3000+ campus residents during 2nd wave of the coronavirus pandemic.
+    \item Actively participated in interhall sports, Illumination, and Open IIT Sketching, showcasing competitive spirit and artistic talents.
     
 \end{itemize}
       \resumeItemListEnd
@@ -195,9 +212,8 @@
 \section{Awards and Achievements}
    \resumeItemListStart
     \begin{itemize}
-    \item Secured AIR 64* in Joint Entrance Examination, Advanced, 2017, among 0.17 million applicants.
-    \item	Secured AIR 44* in Joint Entrance Examination, Mains, 2017, among 1.18 million applicants.
-    \item	Secured Rank 534 in Engineering Agricultural and Medical Common Entrance Test-2017., among 0.22 million applicants.
+    \item Secured rank \textbf{64} and \textbf{44} respectively in Joint Entrance Examination Advanced and Mains - 2017, among \textbf{1.18} million applicants.
+    \item	Secured Rank \textbf{534} in Engineering Agricultural and Medical Common Entrance Test-2017., among \textbf{0.22} million applicants.
 \end{itemize}
       \resumeItemListEnd
 \end{document}
