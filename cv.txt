@@ -77,7 +77,7 @@
 	{\Huge \scshape {Goram Anil Nayak}}\\
     \vspace{2mm}
     \color{blue}
-    \faPhone \ (+91) 7989278697 $|$ \faEnvelope \ \href{mailto:goramanilnayak@gmail.com}{goramanilnayak@gmail.com} $|$ \faLinkedinSquare \ \href{https://www.linkedin.com/in/anil-nayak-28a721182/}{Anil Nayak} $|$ \href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ gmalnk}
+    \faPhone \ (+91) 7989278697 $|$ \faEnvelope \ \href{mailto: goramanilnayak@gmail.com}{goramanilnayak@gmail.com} $|$ \faLinkedinSquare \ \href{https://www.linkedin.com/in/anil-nayak-28a721182/}{Anil Nayak} $|$ \href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ gmalnk}
 \vspace*{-10pt}
 \end{center}
 \vspace{-6mm}
@@ -131,6 +131,7 @@
    \resumeSubheading
       {\small Operations Research Analyst, Laminaar Aviation Infotech, Bangalore, India} {\small July 2022 - present}
         {\begin{itemize}
+            \small \item Worked on Enhancing Crew Rostering Optimizer (\textbf{CRO}) module, which is part of Airline Resource Management System (\textbf{ARMS}) 
             \small \item Achieved near-optimal result in CRO with \textbf{20\%} reduction in crew scheduling costs through compact and moving-window heuristics.
             \small \item Integrated \textbf{reserve assignment}, long reserve assignment, and long reserve priority in CRO module as per Business Requirements.
             \small \item  Handled distribution and horizontal rules of reserve in the CRO module, leading to a \textbf{30\%} increase in, efficient resource allocation.
@@ -143,22 +144,22 @@
 \section{Projects}
     \resumeItemListStart
         \resumeSubheading
-        {Stock Market Algorithmic Trading Application}{January 2023 - present}
+        {Stock Market Algorithmic Trading Application}{Jan 2023 - present}
         {\begin{itemize}
         \item \small Architected an algorithmic trading platform, employing \textbf{PostgreSQL} as database and leveraging \textbf{FastAPI} as the back-end server.
          \small \item  Integrated AngelOne SmartAPI's \textbf{WebSocket} to fetch real-time tick-by-tick data and used yfinance  library for historical  data.
         \small \item  Implemented operations research techniques to generate \textbf{trendlines}, dynamically plotted on UI, enabling data-driven stock analysis
-        \small \item  Developed \textbf{real-time trade} execution functionality, incorporating user pre-defined conditional trades with precision and efficiency.
+        \small \item  Developed \textbf{real-time trade} execution functionality, incorporating user-pre-defined conditional trades with precision and efficiency.
         \item \small Designed and developed a responsive and user-friendly Front-end using \textbf{React.js}, Bootstrap, and TradingView light-weight charts.
         \end{itemize}}
         \resumeSubheading
         {Developed And Deployed Two PERN Stack Applications}{Feb 2023 - April 2023}
          {\begin{itemize}
-        \item \small developed a fully functional Yelp clone application from scratch, utilizing the \textbf{PERN} (PostgreSQL, Express, React, Node.js) stack.
-         \small \item Created a feature-rich to-do list application with \textbf{CRUD} functionality using PERN stack. empowering users to boost productivity.
-        \small \item Effectively deployed applications on \textbf{AWS EC2} instances, leveraging \textbf{Nginx} Software for seamless performance and accessibility.
+        \item \small developed a fully functional restaurant review platform from scratch, utilizing \textbf{PERN} (PostgreSQL, Express, React, Node.js) stack.
+         \small \item Created a feature-rich to-do list application using PERN stack with \textbf{CRUD} functionality. empowering users to boost productivity.
+        \small \item Deployed these applications on \textbf{AWS EC2} instances, leveraging \textbf{Nginx} api gateway for seamless performance and accessibility.
         \small \item Experience the functionality of the applications by accessing them through the following links
-            \color{blue} \href{http://13.51.45.119/}{\underline{Todo app}}, \href{http://13.50.101.28/}{ \underline{ Yelp Clone app}}.
+            \color{blue} \href{http://13.51.45.119/}{\underline{Todo-App}}, \href{http://13.50.101.28/}{ \underline{Restaurant Review App}}.
         \end{itemize}}
        \vspace{-1.7mm}
       \resumeSubHeadingListEnd
@@ -175,7 +176,7 @@
            \resumeItem{\small Database: }
            { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ PostgreSQL \textbar \ MySQL \textbar \  MongoDB}
            \resumeItem{\small Developer Tools: }
-          {\small  \ \ \ \ \ \ \ \ \ \ \ Vs Code \textbar \ Git \textbar \  AWS EC2 \textbar \ Postman \textbar \  Nginx    \textbar \ Docker }
+          {\small  \ \ \ \ \ \ \ \ \ \ \ Vs Code \textbar \ Git \textbar \  AWS EC2 \textbar \ Postman \textbar \  Nginx    \textbar \ Airflow \textbar \ Docker }
            \resumeItemListEnd
      }
      
@@ -217,3 +218,8 @@
 \end{itemize}
       \resumeItemListEnd
 \end{document}
+
+
+
+
+
