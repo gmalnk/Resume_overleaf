@@ -133,7 +133,7 @@
             \small  \item  Improved Solution of CRO by applying a Compact strategy and Moving Window heuristic to the solving methodology.
             \small \item Integrated Reserve assignment, Long Reserve assignment, and Reserve priority in Crew Rostering Optimizer module.
             \small \item  Handled horizontal rules of reserve and Implemented the functionality of reserve distribution in CRO.
-            \small  \item  Worked on two phases of solution engine for improved performance and better distribution of KPI parameters
+            \small  \item  Worked on two phases of the solution engine for improved performance and better distribution of KPI parameters
         \end{itemize}}
       \resumeSubHeadingListEnd
  %----------Projects----------------------
@@ -143,26 +143,27 @@
         \resumeSubheading
         {Stock Market Algo Trading Application}{(January, 2020)}
         {\begin{itemize}
-        \item \small Developed a Wireless Control System for Crack Detection Bot powered by Raspberry Pi. 
-         \small \item  This system can provide a live feed through an onboard camera, which can be used to run Image Processing Algorithms.
-        \small \item  Implemented a controller navigation mechanism to change the Bot's height and planes.
+        \item \small Developed an algorithmic trading platform using PostgreSQL as the database to store data for 2000 stocks of NSE.
+         \small \item  Utilized FastAPI to build the Back-end, enabling efficient retrieval of stock data from the database for the frontend. Leveraged libraries like yfinance and Smart API to gather historical and real-time stock data.
+        \small \item  Implemented OR techniques to generate trendlines(a core feature of the platform), aiding users in data-driven trading. 
+        \small \item Integrated Smart API's WebSocket to fetch live ticks data, enabling accurate trade execution based on real-time data.
+        \small \item Conducted thorough testing to validate the platform's functionality, performance, and reliability. Implemented error handling and data validation to enhance the user experience and ensure data integrity.
+        \item \small Created the Front-end using React.js, implementing various pages and features:
+        {\begin{itemize}
+            \item \small Home Page: Designed a welcoming user interface to provide an overview of the platform's functionality.
+            \item \small Stocks Page: Leveraged the Lightweight Charts library to visualize stock data, allowing users to analyze trends.
+            \item \small Trades Page: Implemented a page to display all user trades, showcasing trade history and relevant information.
+            \item \small P\&L Page: Created a page for users to monitor their P\&, providing valuable insights into trading performance.
+        \end{itemize}}
         \end{itemize}}
         \resumeSubheading
-        {Yelp Clone and Todo list Pern Stack Websites}{(February 2020)}
+        {Developed and deployed two full stack applications using the PERN stack:}{(February 2020)}
          {\begin{itemize}
-        \item \small Programmed an AtMega328p in assembly language to take speed and direction inputs from a Keypad. 
-         \small \item These values are stored inside registers of the Atmega. They are used to drive a Stepper motor.
-        \small \item  The speed of the motor is controlled by varying the time interval switching of the Magnetic Field. 
+        \item \small Yelp Clone: Built a Yelp clone application from scratch using the PERN stack (PostgreSQL, Express, React.js, Node.js).
+         \small \item Todo List App: Created a feature-rich todo list application with CRUD functionality using the PERN stack
+        \small \item  Deployed the applications on AWS EC2 instances using Nginx software, ensuring reliable and scalable hosting for optimal user experience. ToDo List : \href{http://13.51.45.119/}{http://13.51.45.119/}  Yelp Clone \href{http://13.50.101.28/}{http://13.50.101.28/}
         \end{itemize}}
        \vspace{-1.7mm}
-        \resumeSubheading
-        {Todo list Mern Stack Website}{(March 2021)}
-        {\begin{itemize}
-        \item \small  Implemented an Active Shunt Filter to provide Harmonic Compensation to the load to draw a Sinusoidal current.  
-         \small \item Instantaneous Reactive Power Theory (IRPT) Controller changes the Modulation Index of PWM switching.
-        \small \item When connected to a 3-Phase Rectifier, driving an R-L Load, Total Harmonic Distortion reduced from 31\% to under 5\%. 
-        \end{itemize}}
-        \vspace{-2mm}
       \resumeSubHeadingListEnd
      
 
@@ -171,9 +172,9 @@
     \small{
     \resumeItemListStart
         \resumeItem{\small Languages: }
-           { \small    \ \  \ \ \  \ \ \ \ C \textbar \  C\# \textbar \ Python \textbar \  JavaScript \textbar \  HTML/CSS \textbar \  SQL \textbar \  MATLAB}
+           { \small    \ \  \ \ \  \ \ \ \ C \textbar \  C\# \textbar \ Python \textbar \  JavaScript \textbar \  HTML \textbar \ CSS \textbar \  SQL \textbar \  MATLAB}
         \resumeItem{\small Frameworks: }
-          {\small  \ \ \ \ \ \ \ \ NodeJs \textbar \  ReactJs \textbar \  ExpressJs \textbar \ Django \textbar \  MongoDB \textbar \  Postgresql   \textbar \ BootStrap \textbar \ TailWind CSS}
+          {\small  \ \ \ \ \ \ \ \ NodeJs \textbar \  ReactJs \textbar \  ExpressJs \textbar \  FastAPI \textbar \ Django \textbar \  MongoDB \textbar \  Postgresql   \textbar \ BootStrap \textbar \ TailWind CSS}
            \resumeItem{\small Tools: }
           {\small  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Git \textbar \  Visual Studio \textbar \  AWS \textbar \ Postman \textbar \  Nginx  \textbar \ RESTful APIs \textbar \ MATLAB \textbar \ AirFlow }
            \resumeItemListEnd
@@ -183,7 +184,7 @@
 
 \section{Extra Curricular Activities}
    \resumeItemListStart
-               \begin{itemize}
+    \begin{itemize}
     \item 	Interhall Hockey Team Captain for Vidyasagar Hall of Residence, IIT Kharagpur, Jan 2020 - March 2022
     \item	Secretary for sports and games for Vidyasagar Hall of Residence, IIT Kharagpur, Jun 2018 - March 2019.
     \item	 Was part of the National Sports Organisation - football at IIT Kharagpur, Jun 2017- April 2019
@@ -197,8 +198,8 @@
 %-----------Awards etc-----------------
 \section{Awards and Achievements}
    \resumeItemListStart
-               \begin{itemize}
-    \item	Secured AIR 64* in Joint Entrance Examination, Advanced, 2017, among 0.17 million applicants.
+    \begin{itemize}
+    \item Secured AIR 64* in Joint Entrance Examination, Advanced, 2017, among 0.17 million applicants.
     \item	Secured AIR 44* in Joint Entrance Examination, Mains, 2017, among 1.18 million applicants.
     \item	Secured Rank 534 in Engineering Agricultural and Medical Common Entrance Test-2017., among 0.22 million applicants.
 \end{itemize}
