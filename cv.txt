@@ -158,8 +158,9 @@
         \item \small developed a fully functional restaurant review platform from scratch, utilizing \textbf{PERN} (PostgreSQL, Express, React, Node.js) stack.
          \small \item Created a feature-rich to-do list application using PERN stack with \textbf{CRUD} functionality. empowering users to boost productivity.
         \small \item Deployed these applications on \textbf{AWS EC2} instances, leveraging \textbf{Nginx} api gateway for seamless performance and accessibility.
-        \small \item Experience the functionality of the applications by accessing them through the following links
-            \color{blue} \href{http://13.51.45.119/}{\underline{Todo-App}}, \href{http://13.50.101.28/}{ \underline{Restaurant Review App}}.
+        \small \item Experience the functionality of the applications through the following links
+            \color{blue} 
+            \href{http://13.53.190.234/}{ \underline{Trading App}}, \href{http://51.20.32.101/}{\underline{Todo-App}}, \href{http://51.20.117.14/}{ \underline{Restaurant Review App}}.
         \end{itemize}}
        \vspace{-1.7mm}
       \resumeSubHeadingListEnd
