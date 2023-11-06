@@ -1,0 +1,232 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Goram Anil Nayak} \\[7.5pt]
+\href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ gmalnk} \ $|$ \ 
+\href{https://www.linkedin.com/in/anil-nayak-28a721182/}{\raisebox{-0.05\height}\faLinkedin\ Anil Nayak} \ $|$ 
+\href{...}
+{\raisebox{-0.05\height}\faEnvelope \ goramanilnayak@gmail.com} \ $|$ \ 
+\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +91 7989278697} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+
+
+2022 & Degree in Mech.Engg at  \textbf{IIT KHARAGPUR} \hfill (GPA: 8.29/10) \\ 
+
+2017 & Telangana State Board of Intermediate Education \hfill  (98.5\%) \\
+
+2015 & Board of Secondary Education Telangana \hfill  (9.7/10) \\
+\end{tabularx}
+
+%Projects
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{} & \hfill Oct 2022 - Nov 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Developed an interactive web page that assists in recognizing  stocks that are ready to break out.
+        \item[--] Implemented a python script to detect chart patterns (triangle patterns, double bottom patterns, etc) and candle stick patterns in daily, weekly and monthly time frames, by fetching data from yfinance.
+        \item[--] To get trend lines, linear programming techniques were applied which are the basis of Chart patterns.
+        \item[--] Created an interactive graph using tradingview lightweight charts library developed using javascript.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+%Experience
+\section{Work Experience}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Operations Research Analyst} & \hfill Jul 2022 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Worked on Crew Scheduling problem, Implemented ideas that resulted in an improved solution.
+        \item[--] Underwent training in Object Oriented Programming in C\# Language. 
+        \item[--] Obtained Practical Knowledge in MIP, and LP problems and gained cognizance of various industry practice techniques.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Programming Languages  &  \normalsize{Python, C\#, Javascript, C, HTML ,CSS, SQL, Matlab}\\  
+Software \& Frameworks &  \normalsize{Visual Studio BootStrap, ReactJs, Rest API}\\
+Operating Systems &  \normalsize{Windows, Linux}\\
+\end{tabularx}
+
+\section{Awards and Achievements}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Secured a rank of \textbf{64} (Ca) in JEE Advanced-2017 and a rank of \textbf{44} (Ca) in JEE Main-2017.
+        \item[--] Secured a rank of \textbf{534} in Engineering Agricultural and Medical Common Entrance Test -2017.
+    \end{itemize}
+    \end{minipage}}
+\end{tabularx}
+
+\section{Extra Curricular Activities}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Interhall Hockey Team Captain - Vidyasagar Hall of Residence } & \hfill Jan 2020 - March 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Organized regular practice sessions and incorporated new drills to boost the performance of the team.
+        \item[--] Took initiatives for the overall development of the team and encouraged fresher's to improve their skill.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Secretary for sports and games - Vidyasagar Hall of Residence  } & \hfill Jun 2018 - March 2019 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Elected as Secretary for sports and games for VS Hall of Residence in an electoral of 359 students.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Nso-Football - IIT Kharagpur   } & \hfill Jun 2017- April 2019 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Was part of the National Sports Organisation of football for two years at IIT Kharagpur.
+        
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\vfill
+
+\end{document}
+
