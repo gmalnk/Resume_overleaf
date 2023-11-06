@@ -145,16 +145,11 @@
         {\begin{itemize}
         \item \small Developed an algorithmic trading platform using PostgreSQL as the database to store data for 2000 stocks of NSE.
          \small \item  Utilized FastAPI to build the Back-end, enabling efficient retrieval of stock data from the database for the frontend. Leveraged libraries like yfinance and SmartAPI to gather historical and real-time stock data.
-        \small \item  Implemented OR techniques to generate trendlines (a core feature of the platform), aiding users in data-driven trading. 
+        \small \item  Implemented operations research techniques to generate trendlines (a core feature of this platform), for efficent trading. 
         \small \item Integrated SmartAPI's WebSocket to fetch live ticks data, enabling accurate trade execution based on real-time data.
-        \item \small Created the Front-end using React.js, implementing various pages and features:
-        {\begin{itemize}
-            \item \small Home Page: Designed a welcoming user interface to provide an overview of the platform's functionality.
-            \item \small Stocks Page: Leveraged the Lightweight Charts library to visualize stock data, allowing users to analyze trends.
-            \item \small Trades Page: Implemented a page to display all user trades, showcasing trade history and relevant information.
-            \item \small P\&L Page: Created a page for users to monitor their P\&L, providing valuable insights into trading performance.
-        \end{itemize}}
-        \small \item Conducted thorough testing to validate the platform's functionality, performance, and reliability. Implemented error handling and data validation to enhance the user experience and ensure data integrity.
+        \item \small Created the Front-end using React.js, implementing various pages and features which are responsive and user friendly.
+        
+        \small \item Conducted thorough testing to validate the platform's functionality, performance, and reliability, Implemented error handling and data validation to enhance the user experience and ensure data integrity.
         \end{itemize}}
         \resumeSubheading
         {Developed And Deployed Two PERN Stack Applications}{(February 2023)}
@@ -176,7 +171,7 @@
         \resumeItem{\small Web Technologies: }
           {\small  \ \ \ \ \ \ \ \ Node.js \textbar \  React.js \textbar \  Express.js \textbar \  FastAPI \textbar \ Django \textbar \ Restful APIs    \textbar \ BootStrap }
            \resumeItem{\small Database: }
-           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Postgresql \textbar \  MongoDB}
+           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ PostgreSQL \textbar \  MongoDB}
            \resumeItem{\small Developer Tools: }
           {\small  \ \ \ \ \ \ \ \ \ \ \ Vs Code \textbar \ Git \textbar \  AWS EC2 \textbar \ Postman \textbar \  Nginx    \textbar \ Docker }
            \resumeItemListEnd
