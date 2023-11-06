@@ -76,7 +76,7 @@
 \begin{center}
 	{\Huge \scshape {Goram Anil Nayak}}\\
     \vspace{2mm}
-    \faPhone \ (+91) 7989278697 $|$ \faEnvelope \ \href{mailto:goramanilnayak@gmail.com}{goramanilnayak@gmail.com} $|$ \faLinkedinSquare \ \href{https://www.linkedin.com/in/harshcasper}{Anil Nayak} $|$ \href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ gmalnk}
+    \faPhone \ (+91) 7989278697 $|$ \faEnvelope \ \href{mailto:goramanilnayak@gmail.com}{goramanilnayak@gmail.com} $|$ \faLinkedinSquare \ \href{https://www.linkedin.com/in/anil-nayak-28a721182/}{Anil Nayak} $|$ \href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ gmalnk}
 \vspace*{-10pt}
 \end{center}
 \vspace{-6mm}
@@ -86,13 +86,13 @@
 \section{Education}
   \educationSubHeadingListStart
     \educationSubheading
-      {Indian Institute of Technology}{Kharagpur, India}
-      {Bachelor of Technology(Honours) - Mechanical Engineering;  CGPA: 8.23}{July 2017 - June 2022}
+      {Indian Institute of Technology, Kharagpur}{Kharagpur, India}
+      {Dual Degree of B.Tech (Honors) and M.tech- Mechanical Engineering;  CGPA: 8.23}{July 2017 - June 2022}
      \educationSubheading
       {Narayana Junior College}{Hyderabad, India}
       {Telangana State Board of Intermediate Education; Percentage: 98.5}{July 2015 - June 2017}
      \educationSubheading
-      {St. Antony's high school}{Sangareddy, India}
+      {St.Antony's high school}{Sangareddy, India}
       {Telangana State Secondary School Certification;  CGPA: 9.7}{Completion - June 2015}
     \educationSubHeadingListEnd
 
@@ -130,10 +130,10 @@
    \resumeSubheading
       {\small Operations Research Analyst, Laminaar Aviation Infotech, Bangalore, India} {\small July 2022 - present}
         {\begin{itemize}
-            \small  \item  Improved Solution of CRO by applying a Compact strategy and Moving Window heuristic to the solving methodology.
-            \small \item Integrated Reserve assignment, Long Reserve assignment, and Reserve priority in Crew Rostering Optimizer module.
-            \small \item  Handled horizontal rules of reserve and Implemented the functionality of reserve distribution in CRO.
-            \small  \item  Worked on two phases of the solution engine for improved performance and better distribution of KPI parameters
+            \small \item Integrated reserve assignment, long reserve assignment, and reserve priority in Crew Rostering Optimizer module.
+            \small \item  Handled horizontal rules of reserve and implemented the functionality of reserve distribution in CRO module.
+            \small  \item  Improved solution of CRO by applying a compact strategy and moving window heuristic to the solving methodology.
+            \small  \item  Worked on two phases of the solution engine for improved performance and better distribution of KPI parameters.
         \end{itemize}}
       \resumeSubHeadingListEnd
  %----------Projects----------------------
@@ -141,27 +141,27 @@
 \section{Projects}
     \resumeItemListStart
         \resumeSubheading
-        {Stock Market Algo Trading Application}{(January, 2020)}
+        {Stock Market Algorithmic Trading Application}{(January, 2023)}
         {\begin{itemize}
         \item \small Developed an algorithmic trading platform using PostgreSQL as the database to store data for 2000 stocks of NSE.
-         \small \item  Utilized FastAPI to build the Back-end, enabling efficient retrieval of stock data from the database for the frontend. Leveraged libraries like yfinance and Smart API to gather historical and real-time stock data.
-        \small \item  Implemented OR techniques to generate trendlines(a core feature of the platform), aiding users in data-driven trading. 
-        \small \item Integrated Smart API's WebSocket to fetch live ticks data, enabling accurate trade execution based on real-time data.
-        \small \item Conducted thorough testing to validate the platform's functionality, performance, and reliability. Implemented error handling and data validation to enhance the user experience and ensure data integrity.
+         \small \item  Utilized FastAPI to build the Back-end, enabling efficient retrieval of stock data from the database for the frontend. Leveraged libraries like yfinance and SmartAPI to gather historical and real-time stock data.
+        \small \item  Implemented OR techniques to generate trendlines (a core feature of the platform), aiding users in data-driven trading. 
+        \small \item Integrated SmartAPI's WebSocket to fetch live ticks data, enabling accurate trade execution based on real-time data.
         \item \small Created the Front-end using React.js, implementing various pages and features:
         {\begin{itemize}
             \item \small Home Page: Designed a welcoming user interface to provide an overview of the platform's functionality.
             \item \small Stocks Page: Leveraged the Lightweight Charts library to visualize stock data, allowing users to analyze trends.
             \item \small Trades Page: Implemented a page to display all user trades, showcasing trade history and relevant information.
-            \item \small P\&L Page: Created a page for users to monitor their P\&, providing valuable insights into trading performance.
+            \item \small P\&L Page: Created a page for users to monitor their P\&L, providing valuable insights into trading performance.
         \end{itemize}}
+        \small \item Conducted thorough testing to validate the platform's functionality, performance, and reliability. Implemented error handling and data validation to enhance the user experience and ensure data integrity.
         \end{itemize}}
         \resumeSubheading
-        {Developed and deployed two full stack applications using the PERN stack:}{(February 2020)}
+        {Developed And Deployed Two PERN Stack Applications}{(February 2023)}
          {\begin{itemize}
-        \item \small Yelp Clone: Built a Yelp clone application from scratch using the PERN stack (PostgreSQL, Express, React.js, Node.js).
-         \small \item Todo List App: Created a feature-rich todo list application with CRUD functionality using the PERN stack
-        \small \item  Deployed the applications on AWS EC2 instances using Nginx software, ensuring reliable and scalable hosting for optimal user experience. ToDo List : \href{http://13.51.45.119/}{http://13.51.45.119/}  Yelp Clone \href{http://13.50.101.28/}{http://13.50.101.28/}
+        \item \small Yelp Clone: Developed a fully functional Yelp clone application from scratch using the PERN stack.
+         \small \item Todo List App: Created a feature-rich todo list application with CRUD functionality using the PERN stack.
+        \small \item  Deployed the applications on AWS EC2 instances using Nginx software, Links for  \href{http://13.51.45.119/}{Todo app}, \href{http://13.50.101.28/}{  Yelp Clone app}.
         \end{itemize}}
        \vspace{-1.7mm}
       \resumeSubHeadingListEnd
@@ -172,23 +172,24 @@
     \small{
     \resumeItemListStart
         \resumeItem{\small Languages: }
-           { \small    \ \  \ \ \  \ \ \ \ C \textbar \  C\# \textbar \ Python \textbar \  JavaScript \textbar \  HTML \textbar \ CSS \textbar \  SQL \textbar \  MATLAB}
-        \resumeItem{\small Frameworks: }
-          {\small  \ \ \ \ \ \ \ \ NodeJs \textbar \  ReactJs \textbar \  ExpressJs \textbar \  FastAPI \textbar \ Django \textbar \  MongoDB \textbar \  Postgresql   \textbar \ BootStrap \textbar \ TailWind CSS}
-           \resumeItem{\small Tools: }
-          {\small  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Git \textbar \  Visual Studio \textbar \  AWS \textbar \ Postman \textbar \  Nginx  \textbar \ RESTful APIs \textbar \ MATLAB \textbar \ AirFlow }
+           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ C \textbar \  C\# \textbar \ Python \textbar \  JavaScript \textbar \  HTML \textbar \ CSS \textbar \  SQL \textbar \ MATLAB  }
+        \resumeItem{\small Web Technologies: }
+          {\small  \ \ \ \ \ \ \ \ Node.js \textbar \  React.js \textbar \  Express.js \textbar \  FastAPI \textbar \ Django \textbar \ Restful APIs    \textbar \ BootStrap }
+           \resumeItem{\small Database: }
+           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Postgresql \textbar \  MongoDB}
+           \resumeItem{\small Developer Tools: }
+          {\small  \ \ \ \ \ \ \ \ \ \ \ Vs Code \textbar \ Git \textbar \  AWS EC2 \textbar \ Postman \textbar \  Nginx    \textbar \ Docker }
            \resumeItemListEnd
      }
      
 \setlength{\itemindent}{5mm}
 
-\section{Extra Curricular Activities}
+\section{Position Of Responsibilities}
    \resumeItemListStart
     \begin{itemize}
-    \item 	Interhall Hockey Team Captain for Vidyasagar Hall of Residence, IIT Kharagpur, Jan 2020 - March 2022
+    \item 	Interhall Hockey Team Captain for Vidyasagar Hall of Residence, IIT Kharagpur, Jan 2020 - March 2022.
     \item	Secretary for sports and games for Vidyasagar Hall of Residence, IIT Kharagpur, Jun 2018 - March 2019.
-    \item	 Was part of the National Sports Organisation - football at IIT Kharagpur, Jun 2017- April 2019
-, 2014-15.
+    \item	 Was part of the National Sports Organisation - football at IIT Kharagpur, Jun 2017- April 2019.
     
 \end{itemize}
       \resumeItemListEnd
