@@ -77,7 +77,7 @@
 	{\Huge \scshape {Goram Anil Nayak}}\\
     \vspace{2mm}
     \color{blue}
-    \faPhone \ (+91) 7989278697 $|$ \faEnvelope \ \href{mailto: goramanilnayak@gmail.com}{goramanilnayak@gmail.com} $|$ \faLinkedinSquare \ \href{https://www.linkedin.com/in/anil-nayak-28a721182/}{Anil Nayak} $|$ \href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ gmalnk}
+    \faPhone \ (+91) 7989278697 $|$ \faEnvelope \ \href{mailto: goramanilnayak@gmail.com}{goramanilnayak@gmail.com} $|$ \faUser \ \href{https://gmalnk.netlify.app/}{Portfolio-Website} $|$ \faLinkedinSquare \ \href{https://www.linkedin.com/in/goram-anil-nayak/}{LinkedIn} $|$ \href{https://github.com/gmalnk}{\raisebox{-0.05\height}\faGithub\ GitHub}
 \vspace*{-10pt}
 \end{center}
 \vspace{-6mm}
@@ -126,6 +126,29 @@
   %-----------Work & Research--------------
 \setlength{\itemindent}{5mm}
 \vspace{-4mm}
+\section{Projects}
+    \resumeItemListStart
+        \resumeSubheading
+        {Finance Web Application}{Jan 2023 - present}
+        {\begin{itemize}
+        \item \small Crafted a user-friendly front-end using \textbf{NextJS}, \textbf{Tailwind CSS}, Shadcn UI, and \textbf{lightweight charts} for seamless interactions.
+        \item \small Architected a server, hosted on EC2 with \textbf{FastAPI} backend, \textbf{PostgreSQL} database, and implemented sharding for performance
+         \small \item  Integrated AngelOne SmartAPI's \textbf{WebSocket} to fetch real-time tick-by-tick data and used yfinance library for historical  data.
+        \small \item  Leveraged Operations Research techniques to model the real-world problem of \textbf{trendline generation}, dynamically plotting on U.
+        \small \item  Developed real-time \textbf{conditional trade execution} functionality, integrating with third-party brokers like AngelOne and Zerodha.
+        
+        \end{itemize}}
+        \resumeSubheading
+        {Developed And Deployed Full Stack Applications}{Feb 2023 - April 2023}
+         {\begin{itemize}
+        \item \small Developed Netflix Clone, Tetris, and Todo Web-Apps using NextJS, incorporating \textbf{Next-Auth}, Supabase, and \textbf{ServerActions}.
+        \small \item Designed apps in a \textbf{Monorepo}, utilizing \textbf{custom hooks} and \textbf{internal packages} for UI and state management with \textbf{Recoil}.
+         \small \item Implemented \textbf{CRUD} operations, authentication, \textbf{Prisma} for efficient database interactions, and deployed on \textbf{Vercel} and \textbf{Netlify}.
+        \end{itemize}}
+       \vspace{-1.7mm}
+      \resumeSubHeadingListEnd
+     
+
 \section{Professional Experience}
   \resumeSubHeadingListStart
    \resumeSubheading
@@ -141,43 +164,18 @@
       \resumeSubHeadingListEnd
  %----------Projects----------------------
 \setlength{\itemindent}{5mm}
-\section{Projects}
-    \resumeItemListStart
-        \resumeSubheading
-        {Stock Market Algorithmic Trading Application}{Jan 2023 - present}
-        {\begin{itemize}
-        \item \small Architected an algorithmic trading platform, employing \textbf{PostgreSQL} as database and leveraging \textbf{FastAPI} as the back-end server.
-         \small \item  Integrated AngelOne SmartAPI's \textbf{WebSocket} to fetch real-time tick-by-tick data and used yfinance  library for historical  data.
-        \small \item  Implemented operations research techniques to generate \textbf{trendlines}, dynamically plotted on UI, enabling data-driven stock analysis
-        \small \item  Developed \textbf{real-time trade} execution functionality, incorporating user-pre-defined conditional trades with precision and efficiency.
-        \item \small Designed and developed a responsive and user-friendly Front-end using \textbf{React.js}, Bootstrap, and TradingView light-weight charts.
-        \end{itemize}}
-        \resumeSubheading
-        {Developed And Deployed Two PERN Stack Applications}{Feb 2023 - April 2023}
-         {\begin{itemize}
-        \item \small developed a fully functional restaurant review platform from scratch, utilizing \textbf{PERN} (PostgreSQL, Express, React, Node.js) stack.
-         \small \item Created a feature-rich to-do list application using PERN stack with \textbf{CRUD} functionality. empowering users to boost productivity.
-        \small \item Deployed these applications on \textbf{AWS EC2} instances, leveraging \textbf{Nginx} api gateway for seamless performance and accessibility.
-        \small \item Experience the functionality of the applications through the following links
-            \color{blue} 
-            \href{http://13.53.190.234/}{ \underline{Trading App}}, \href{http://51.20.32.101/}{\underline{Todo-App}}, \href{http://51.20.117.14/}{ \underline{Restaurant Review App}}.
-        \end{itemize}}
-       \vspace{-1.7mm}
-      \resumeSubHeadingListEnd
-     
-
 %--------PROGRAMMING SKILLS------------
 \section{Relevant Skills}
     \small{
     \resumeItemListStart
         \resumeItem{\small Languages: }
-           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ C \textbar \  C\# \textbar \ Python \textbar \  JavaScript \textbar \  HTML \textbar \ CSS \textbar \  SQL \textbar \ MATLAB  }
-        \resumeItem{\small Web Technologies: }
-          {\small  \ \ \ \ \ \ \ \ Node.js \textbar \  React.js \textbar \  Express.js \textbar \  FastAPI \textbar \ Django \textbar \ Restful APIs    \textbar \ BootStrap }
+           { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ C  \textbar \  JavaScript \textbar TypeScript \textbar \  HTML \textbar \ CSS \textbar \  SQL \textbar \ Python \textbar \  C\#   }
+        \resumeItem{\small Web Technologies: } 
+          {\small  \ \ \ \ \ \ \ \ Node.js \textbar \  React.js  \textbar \  Next.js \textbar \  Express.js \textbar \  FastAPI      \textbar \ Tailwimd CSS \textbar \  GraphQL \textbar \ Restful APIs \textbar \ Recoil \textbar \ Redis }
            \resumeItem{\small Database: }
            { \small    \ \  \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ PostgreSQL \textbar \ MySQL \textbar \  MongoDB}
            \resumeItem{\small Developer Tools: }
-          {\small  \ \ \ \ \ \ \ \ \ \ \ Vs Code \textbar \ Git \textbar \  AWS EC2 \textbar \ Postman \textbar \  Nginx    \textbar \ Airflow \textbar \ Docker }
+          {\small  \ \ \ \ \ \ \ \ \ \ \ Vs Code \textbar \ Git \textbar \  AWS EC2 \textbar \ Postman \textbar \  Nginx    \textbar \ Docker \textbar \  }
            \resumeItemListEnd
      }
      
